@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
+
+  <!--contactManager.css-->
+  <link rel="stylesheet" href="/dist/css/contactManager.css"/>
+
+  <!--contactManager.js-->
+  <script src="/dist/js/contactManager.js" defer></script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/22b93a8437.js" crossorigin="anonymous" defer></script>
+
+  <title>Contact Manager</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="contact-manager">
+      <div class="contact-header">
+        <i class="fas fa-user-friends fa-7x contact-logo"></i>
+        <p class="contact-heading">Contact Manager</p>
+      </div>
+      <div class="contact-form">
+        <form onsubmit="submitContact(event)">
+          <input id="cName" type="text" placeholder="Enter Contact Name" >
+          <input id="cNumber" type="text" placeholder="Enter Contact Number" >
+          <button type="submit">Add Contact</button>
+        </form>
+      </div>
+      <div class="contact-body">
+        <!-- <div class="contact-item">
+          <i class="far fa-user fa-2x color-primary"></i>
+          <div class="contact-item-info">
+            <h4>Aadarsh Kushwaha</h4>
+            <p>+977 9807170422</p>
+          </div>
+          <i class="fas fa-times-circle fa-2x color-primary"></i>
+        </div> -->
+      </div>
+    </div>  
+  </div>
+</body>
+</html>
